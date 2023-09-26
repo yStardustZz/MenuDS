@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalcCientifica.cs">
+    <Compile Include="Calculadoras\CalcCientifica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CalcCientifica.Designer.cs">
+    <Compile Include="Calculadoras\CalcCientifica.Designer.cs">
       <DependentUpon>CalcCientifica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculadoras\CalcDropdown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculadoras\CalcDropdown.Designer.cs">
+      <DependentUpon>CalcDropdown.cs</DependentUpon>
     </Compile>
     <Compile Include="Calculadoras\CalcSimples.cs">
       <SubType>Form</SubType>
@@ -72,8 +78,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CalcCientifica.resx">
+    <EmbeddedResource Include="Calculadoras\CalcCientifica.resx">
       <DependentUpon>CalcCientifica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculadoras\CalcDropdown.resx">
+      <DependentUpon>CalcDropdown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Calculadoras\CalcSimples.resx">
       <DependentUpon>CalcSimples.cs</DependentUpon>

@@ -26,7 +26,9 @@ namespace MenuDS
 
         private void calculadoraCientíficaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var CalcCienOpen = new CalcCientifica();
+            CalcCienOpen.Show();
+            this.Visible = false;
         }
 
         private void calcOrientadaAObjetoToolStripMenuItem_Click(object sender, EventArgs e)

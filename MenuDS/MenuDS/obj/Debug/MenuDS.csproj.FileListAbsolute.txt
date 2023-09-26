@@ -11,3 +11,16 @@ C:\Users\Lucidio\source\repos\MenuDS\MenuDS\obj\Debug\MenuDS.Form1.resources
 C:\Users\Lucidio\source\repos\MenuDS\MenuDS\obj\Debug\MenuDS.MenuDS.resources
 C:\Users\Lucidio\source\repos\MenuDS\MenuDS\obj\Debug\MenuDS.Calculadoras.CalcSimples.resources
 C:\Users\Lucidio\source\repos\MenuDS\MenuDS\obj\Debug\MenuDS.CalcCientifica.resources
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.AssemblyReference.cache
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.CalcCientifica.resources
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Calculadoras.CalcSimples.resources
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Form1.resources
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.MenuDS.resources
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Properties.Resources.resources
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.GenerateResource.cache
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.CoreCompileInputs.cache
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.exe
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.pdb
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\bin\Debug\MenuDS.exe.config
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\bin\Debug\MenuDS.exe
+C:\Users\Lucidio\Source\Repos\MenuDS\MenuDS\MenuDS\bin\Debug\MenuDS.pdb

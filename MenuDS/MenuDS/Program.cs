@@ -16,7 +16,7 @@ namespace MenuDS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CalcCientifica());
+            Application.Run(new Form1());
         }
     }
 }
