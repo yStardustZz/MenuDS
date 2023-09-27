@@ -50,7 +50,7 @@ namespace MenuDS
             lblVisor.Focus();
         }
 
-        private void btnNumero(object sender, EventArgs e)
+        private void btnNumero2(object sender, EventArgs e)
         {
             string vNumero = ((Button)sender).Text;
 
@@ -87,20 +87,31 @@ namespace MenuDS
         private void Form1_Keydown(object sender, KeyEventArgs e)
         {
             Button bot = new Button();
-            //label2.Text = e.KeyCode.ToString();
-            //if((e.KeyCode>=Keys.D0 && e.KeyCode=<=Keys.D9))
-            //{
-            //    bot.Text = e.KeyCode.ToString().Substring(1, 1);
-            //    btnNumero(bot, e);
-            //    return;
-            //}
+            label2.Text = e.KeyCode.ToString();
 
-            //else if((e.KeyCode == Keys.Oemcomma))
-            //{
-            //    bot.Text = ",";
-            //    btnNumero(bot, e);
-            //    return;
-            //}
+            if((e.KeyCode>=Keys.D0 && e.KeyCode<=Keys.D9))
+            {
+                bot.Text = e.KeyCode.ToString().Substring(1, 1);
+                groupBox(bot, e);
+                return;
+            }
+
+            else if((e.KeyCode == Keys.Oemcomma))
+            {
+                bot.Text = ",";
+                groupBox(bot, e);
+                return;
+            }
+
+            switch (e.KeyCode.ToString())
+            {
+                case "Oemplus":
+                    {
+                        bot.Text = "+";
+                        btnOperacao(bot, e);
+                        return;
+                    }
+            }
         }
 
         private void btnApagar_Click(object sender, EventArgs e)
