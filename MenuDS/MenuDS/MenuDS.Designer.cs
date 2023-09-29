@@ -30,6 +30,7 @@ namespace MenuDS
         private void InitializeComponent()
         {
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.StatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aplicativosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraSimplesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -37,7 +38,6 @@ namespace MenuDS
             this.calcOrientadaAObjetoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calcOrientadaAObjetoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.StatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -52,6 +52,13 @@ namespace MenuDS
             this.statusStrip1.Size = new System.Drawing.Size(521, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
+            // 
+            // StatusLabel
+            // 
+            this.StatusLabel.BackColor = System.Drawing.Color.Transparent;
+            this.StatusLabel.Name = "StatusLabel";
+            this.StatusLabel.Size = new System.Drawing.Size(135, 17);
+            this.StatusLabel.Text = "Selecione um aplicativo.";
             // 
             // menuStrip1
             // 
@@ -78,29 +85,29 @@ namespace MenuDS
             // calculadoraSimplesToolStripMenuItem
             // 
             this.calculadoraSimplesToolStripMenuItem.Name = "calculadoraSimplesToolStripMenuItem";
-            this.calculadoraSimplesToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.calculadoraSimplesToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.calculadoraSimplesToolStripMenuItem.Text = "Calculadora Simples";
             this.calculadoraSimplesToolStripMenuItem.Click += new System.EventHandler(this.calculadoraSimplesToolStripMenuItem_Click);
             // 
             // calculadoraCientíficaToolStripMenuItem
             // 
             this.calculadoraCientíficaToolStripMenuItem.Name = "calculadoraCientíficaToolStripMenuItem";
-            this.calculadoraCientíficaToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.calculadoraCientíficaToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.calculadoraCientíficaToolStripMenuItem.Text = "Calculadora Científica";
             this.calculadoraCientíficaToolStripMenuItem.Click += new System.EventHandler(this.calculadoraCientíficaToolStripMenuItem_Click);
             // 
             // calcOrientadaAObjetoToolStripMenuItem
             // 
             this.calcOrientadaAObjetoToolStripMenuItem.Name = "calcOrientadaAObjetoToolStripMenuItem";
-            this.calcOrientadaAObjetoToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.calcOrientadaAObjetoToolStripMenuItem.Text = "Calculadora RadioButtons";
+            this.calcOrientadaAObjetoToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.calcOrientadaAObjetoToolStripMenuItem.Text = "Calculadora Selecionável";
             this.calcOrientadaAObjetoToolStripMenuItem.Click += new System.EventHandler(this.calcOrientadaAObjetoToolStripMenuItem_Click);
             // 
             // calcOrientadaAObjetoToolStripMenuItem1
             // 
             this.calcOrientadaAObjetoToolStripMenuItem1.Name = "calcOrientadaAObjetoToolStripMenuItem1";
-            this.calcOrientadaAObjetoToolStripMenuItem1.Size = new System.Drawing.Size(211, 22);
-            this.calcOrientadaAObjetoToolStripMenuItem1.Text = "Calc. Orientada a Objeto";
+            this.calcOrientadaAObjetoToolStripMenuItem1.Size = new System.Drawing.Size(206, 22);
+            this.calcOrientadaAObjetoToolStripMenuItem1.Text = "Calculadora RadioButton";
             this.calcOrientadaAObjetoToolStripMenuItem1.Click += new System.EventHandler(this.calcOrientadaAObjetoToolStripMenuItem1_Click);
             // 
             // ajudaToolStripMenuItem
@@ -109,13 +116,6 @@ namespace MenuDS
             this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.ajudaToolStripMenuItem.Text = "Ajuda";
             this.ajudaToolStripMenuItem.Click += new System.EventHandler(this.ajudaToolStripMenuItem_Click);
-            // 
-            // StatusLabel
-            // 
-            this.StatusLabel.BackColor = System.Drawing.Color.Transparent;
-            this.StatusLabel.Name = "StatusLabel";
-            this.StatusLabel.Size = new System.Drawing.Size(135, 17);
-            this.StatusLabel.Text = "Selecione um aplicativo.";
             // 
             // button1
             // 

@@ -38,3 +38,17 @@ C:\Users\LabInfo\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.Gener
 C:\Users\LabInfo\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.CoreCompileInputs.cache
 C:\Users\LabInfo\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.exe
 C:\Users\LabInfo\Source\Repos\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.pdb
+C:\VS19\MenuDS\MenuDS\MenuDS\bin\Debug\MenuDS.exe.config
+C:\VS19\MenuDS\MenuDS\MenuDS\bin\Debug\MenuDS.exe
+C:\VS19\MenuDS\MenuDS\MenuDS\bin\Debug\MenuDS.pdb
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.AssemblyReference.cache
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.CalcCientifica.resources
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Calculadoras.CalcDropdown.resources
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Calculadoras.CalcSimples.resources
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Form1.resources
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.MenuDS.resources
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Properties.Resources.resources
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.GenerateResource.cache
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.CoreCompileInputs.cache
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.exe
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.pdb

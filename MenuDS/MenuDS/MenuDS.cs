@@ -33,7 +33,9 @@ namespace MenuDS
 
         private void calcOrientadaAObjetoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var CalcSelectOpen = new Calculadoras.CalcDropdown;
+            CalcSelectOpen.Show();
+            this.Visible = false;
         }
 
         private void calcOrientadaAObjetoToolStripMenuItem1_Click(object sender, EventArgs e)

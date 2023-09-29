@@ -64,6 +64,7 @@
     <Compile Include="Calculadoras\CalcSimples.Designer.cs">
       <DependentUpon>CalcSimples.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

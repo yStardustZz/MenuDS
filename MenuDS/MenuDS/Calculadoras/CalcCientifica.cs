@@ -50,7 +50,7 @@ namespace MenuDS
             lblVisor.Focus();
         }
 
-        private void btnNumero2(object sender, EventArgs e)
+        private void btnNumero(object sender, EventArgs e)
         {
             string vNumero = ((Button)sender).Text;
 
@@ -92,15 +92,20 @@ namespace MenuDS
             if((e.KeyCode>=Keys.D0 && e.KeyCode<=Keys.D9))
             {
                 bot.Text = e.KeyCode.ToString().Substring(1, 1);
-                groupBox(bot, e);
+                btnNumero(bot, e);
                 return;
             }
 
             else if((e.KeyCode == Keys.Oemcomma))
             {
                 bot.Text = ",";
-                groupBox(bot, e);
+                btnNumero(bot, e);
                 return;
+            }
+
+            if(e.KeyCode == Keys.Return)
+            {
+                btnIgual_Click(bot, e);
             }
 
             switch (e.KeyCode.ToString())
