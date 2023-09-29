@@ -72,12 +72,12 @@ namespace MenuDS.Calculadoras
                 case "Potenciação":
                     {
                         Classes objCalc = new Classes();
-                        a = int.Parse(numero1.Text);
-                        b = int.Parse(numero2.Text);
+                        
+                        
                         string result = Math.Pow(Convert.ToDouble(a), Convert.ToDouble(b)).ToString();
                         lblResultado.Text = result;
 
-                        return;
+                        break;
                     }
                 case "Comparação":
                     {

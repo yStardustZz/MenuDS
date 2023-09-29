@@ -152,7 +152,7 @@ namespace MenuDS.Calculadoras
             this.MaximizeBox = false;
             this.Name = "CalcDropdown";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CalcDropdown";
+            this.Text = "Calculadora Selecionável";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

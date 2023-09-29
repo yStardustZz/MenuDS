@@ -64,6 +64,12 @@
     <Compile Include="Calculadoras\CalcSimples.Designer.cs">
       <DependentUpon>CalcSimples.cs</DependentUpon>
     </Compile>
+    <Compile Include="Calculadoras\CalculadoraRadio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculadoras\CalculadoraRadio.Designer.cs">
+      <DependentUpon>CalculadoraRadio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classes.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Calculadoras\CalcSimples.resx">
       <DependentUpon>CalcSimples.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculadoras\CalculadoraRadio.resx">
+      <DependentUpon>CalculadoraRadio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

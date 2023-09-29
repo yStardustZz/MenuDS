@@ -10,8 +10,8 @@ namespace MenuDS
     {
         public class Getset
         {
-            private decimal _num1;
-            private decimal _num2;
+            public decimal _num1;
+            public decimal _num2;
 
             public decimal Num1
             {

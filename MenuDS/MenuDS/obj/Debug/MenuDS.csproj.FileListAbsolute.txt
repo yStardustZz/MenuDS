@@ -52,3 +52,4 @@ C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.GenerateResource.cache
 C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.csproj.CoreCompileInputs.cache
 C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.exe
 C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.pdb
+C:\VS19\MenuDS\MenuDS\MenuDS\obj\Debug\MenuDS.Calculadoras.CalculadoraRadio.resources

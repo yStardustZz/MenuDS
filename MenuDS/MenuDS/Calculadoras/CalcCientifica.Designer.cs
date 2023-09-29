@@ -348,7 +348,7 @@ namespace MenuDS
             this.MaximizeBox = false;
             this.Name = "CalcCientifica";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CalcCientifica";
+            this.Text = "Calculadora Científica";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_Keydown);
             this.vNumero.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
