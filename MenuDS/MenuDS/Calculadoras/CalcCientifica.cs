@@ -127,5 +127,10 @@ namespace MenuDS
                 lblVisor.Text = "0";
             }
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            lblVisor.Text = (decimal.Parse(lblVisor.Text) * -1).ToString();
+        }
     }
 }

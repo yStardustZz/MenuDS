@@ -16,7 +16,7 @@ namespace MenuDS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Calculadoras.CalcDropdown());
+            Application.Run(new Form1());
         }
     }
 }

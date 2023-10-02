@@ -72,8 +72,8 @@ namespace MenuDS.Calculadoras
                 case "Potenciação":
                     {
                         Classes objCalc = new Classes();
-                        
-                        
+                        a = decimal.Parse(numero1.Text);
+                        b = decimal.Parse(numero2.Text);
                         string result = Math.Pow(Convert.ToDouble(a), Convert.ToDouble(b)).ToString();
                         lblResultado.Text = result;
 
